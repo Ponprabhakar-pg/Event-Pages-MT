@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
+
+
+html,body {
+    background:white;
+	background-attachment: fixed;	
+	background-size: cover;
+  
+	}
+
+.Filter{
+	background-color: #00CED1;
+	margin: 1em;
+	margin-bottom: 1.5em;
+	padding: 3px;
+
+}
+#flabel{
+	font-size: 25px;
+}
+    
+
+#container{
+	box-shadow: 0 15px 30px 1px grey;
+	background: #00CED1;
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-left: 4em ;
+    margin-bottom: 1.5em;
+	height: 325px;
+	width: 500px;
+	padding: 0px;
+  
+	
+}
+
+
+
+.product-details {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 20px;
+	height: 100%;
+	float: left;
+	width: 40%;
+
+}
+
+#container .product-details h1{
+	font-family: "montserrat-medium", sans-serif;
+	display: inline-block;
+	position: relative;
+	font-size: 25px;
+	color: #344055;
+	margin: 0px;
+	
+}
+
+#container .product-details h1:before{
+	position: absolute;
+	content: '';
+	right: 0%; 
+	top: 0%;
+	transform: translate(25px, -15px);
+	font-family: 'Bree Serif', serif;
+	display: inline-block;
+	background: #ffe6e6;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 5px;
+	color: white;
+	margin: 0;
+	animation: chan-sh 6s ease infinite;
+
+}
+#container .product-details .information{
+        font-size: 15px;
+        text-align: left;
+        font-family: 'Bree Serif', serif;
+        padding: auto;
+    
+}
+
+
+
+	
+
+
+.hint-star {
+	display: inline-block;
+	margin-left: 0.5em;
+	color: gold;
+	width: 50%;
+}
+
+
+#container .product-details > p {
+font-family: 'EB Garamond', serif;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	padding-top: 10px; ;
+	
+}
+.control{
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	
+}
+.btn {
+
+    width: 130px;
+    height: 50px;
+    border-color: black;
+    color: black;
+    letter-spacing: 0rem;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+	
+}
+
+.btn:hover{transform: translateY(-6px);
+	background: rgb(136, 202, 60);}
+
+.btn span {
+	font-family: "montserrat-medium", sans-serif;
+	transition: transform 0.3s;
+	display: inline-block;
+    padding: 1px 1px;
+	font-size: 1em;
+	margin:0;
+	
+}
+
+
+
+
+.btn .buy {z-index: 2; font: weight 10px;;}
+
+.btn:hover .price {transform: translateX(-110%);}
+
+.btn:hover .shopping-cart {transform: translateX(0%);}
+
+
+
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	float: right;
+	width: 60%;
+	display: inline-block;
+}
+
+
+#container img {width: 100%;height: 100%;}
+
+.info {
+    background: rgba(27, 26, 26, 0.9);
+    font-family: 'Bree Serif', serif;
+    transition: all 0.3s ease-out;
+    transform: translateX(-100%);
+    position: absolute;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 105%;
+    cursor: no-drop;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+.footer{
+	background-color:black;
+	text-align: center;
+	height: 100px;
+
+}
+.fa {
+	padding: 10px;
+	font-size: 30px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+  }
+  
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  
+  .fa-instagram {
+	background: #125688;
+	color: white;
+  }
+  
+@media (max-width:450px) {
+    #container{
+        box-shadow: 0 15px 30px 1px grey;
+        background: linear-gradient(to bottom, white 0%, #00ced1 100%);
+        text-align: center;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-left: 0em ;
+        margin-bottom: 1.5em;
+        height: 325px;
+        width: 450px;
+      
+        
+    }
+
+    
+}
+@media (max-width:540px) {
+	.Filter{
+		background-color: #00CED1;
+		margin: 0.1em;
+		margin-bottom: 1em; 
+	}
+	#flabel{
+		font-size: 15px;
+	}
+
+    
+}
+
+
+
+
+
+
+        
+        
+
+.info h2 {text-align: center ;color: blanchedalmond;}
+.product-image:hover .info{transform: translateX(0);}
+
+.info ul li{transition: 0.3s ease;}
+.info ul li:hover{transform: translateX(20px) scale(1);}
+
+.product-image:hover img {transition: all 0.3s ease-out;}
+.product-image:hover img {transform: scale(1.2, 1.2);}
