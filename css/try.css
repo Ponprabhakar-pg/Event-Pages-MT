@@ -230,7 +230,7 @@ font-family: 'EB Garamond', serif;
 @media (max-width:450px) {
     #container{
         box-shadow: 0 15px 30px 1px grey;
-        background: linear-gradient(to bottom, white 0%, #00ced1 100%);
+        background: #00CED1;
         text-align: center;
         border-radius: 5px;
         overflow: hidden;
